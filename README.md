@@ -1,3 +1,5 @@
+# Quantum Walk
+
 This program is designed to make a visual quantum walk and allow the user to test graphs for perfect or pretty good state transfer. When the program runs it will ask the user to input a file name. This file contains the graph the user wants to run the walk on. You are allowed real and imaginary weights on the graph (our research was on imaginary weighted graphs). Note that the adjacency matrix for the graph must be hermitian (to keep it unitary). Here is an example of a file (with comments).
 
 
