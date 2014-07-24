@@ -6,22 +6,29 @@ This program is designed to make a visual quantum walk and allow the user to tes
 
 ## Two Node Graph
 
+```
 2 (number of nodes)
 
-
 (Adjacency Matrix)
+
 -1  0  1.414  0  (first two values are the real and then imag part of a number) 
+
 1.414  0  -1  0  
+
 (This matrix is 2 by 2)
 
 (position of node in space) 
+
 0 0 0
+
 1 0 0
+
 (This is used my the graphics side)
  
 (starting vector)
-1 0 0 0  (again, first two numbers for each value, real, imag)
 
+1 0 0 0  (again, first two numbers for each value, real, imag)
+```
 
 When running this file it produces this screen
 
@@ -37,27 +44,46 @@ Here is another example of a file called pres.txt
 This algorithm uses spectral decomposition for its speed and accuracy. Taylor approximation is to slow and diverges quickly. Here is a brief look at the math.
 
 
-
+```
 |distribution> = e^(-itA) dot |start>
+```
 
 Where, 
+
+```
 A is the adjacency matrix, 
+
 t is time
+
 |start> (vector) is the initial distribution. In the example above its (1,0) so it starts on the first node
-|distribution> is the final distribution on the nodes. In the example above at time roughly 1.11 we see perfect state transfer to the second not, ie (0,1).
+
+|distribution> is the final distribution on the nodes. In the example above at time roughly 1.11 we see perfect state transfer to the second 
+not, ie (0,1).
+```
+
 
 ## Commands
 
 Here is a list of commands
 
+```
 t = timestep of .001
+
 f = timestep of .01
+
 g = timestep of .1
+
 - = reverse direction
+
 1 = fullscreen
+
 2 = exit fullscreen
+
 arrows = rotate
+
 w,a,s,d = move the image
+```
+
 
 ## How to compile
 
