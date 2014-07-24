@@ -22,12 +22,19 @@ This program is designed to make a visual quantum walk and allow the user to tes
 (starting vector)
 1 0 0 0  (again, first two numbers for each value, real, imag)
 
-## Another 
+
+When running this file it produces this screen
+
+![ScreenShot](https://github.com/loliverhennigh/Quantum-Walk-Simulator/blob/master/two_node.png)
+
+Here is another example of a file called pres.txt
+
+![ScreenShot](https://github.com/loliverhennigh/Quantum-Walk-Simulator/blob/master/pres.png)
 
 
----------------------------
+## How it works
 
-My algorithm uses spectral decomposition for its speed and accuracy. Taylor approximation is super bad for matrix stuff. Here is a brief look at the math.
+This algorithm uses spectral decomposition for its speed and accuracy. Taylor approximation is to slow and diverges quickly. Here is a brief look at the math.
 
 
 
@@ -39,7 +46,9 @@ t is time
 |start> (vector) is the initial distribution. In the example above its (1,0) so it starts on the first node
 |distribution> is the final distribution on the nodes. In the example above at time roughly 1.11 we see perfect state transfer to the second not, ie (0,1).
 
-There are many commands will the program is running. Here is a list of them
+## Commands
+
+Here is a list of commands
 
 t = timestep of .001
 f = timestep of .01
@@ -50,12 +59,20 @@ g = timestep of .1
 arrows = rotate
 w,a,s,d = move the image
 
-Now try running the two_node.txt file included.
+## How to compile
 
 Here are the steps,
-enter
-./make (to make the exicudable)
-./walks (to run the program)
+
+```
+make
+```
+
+and to exacute
+```
+./walks
+```
+
+You will need opengl and glut.
 
 Good Luck!
 
