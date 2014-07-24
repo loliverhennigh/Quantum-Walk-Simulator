@@ -72,7 +72,7 @@ and to exacute
 ./walks
 ```
 
-You will need opengl and glut.
+You will need opengl 3.0 and glut.
 
 Good Luck!
 
