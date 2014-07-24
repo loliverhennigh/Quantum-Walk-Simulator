@@ -6,6 +6,8 @@ This program is designed to make a visual quantum walk and allow the user to tes
 
 ## Two Node Graph
 
+Here is what a graph file lookes like
+
 ```
 2 (number of nodes)
 
@@ -100,7 +102,7 @@ and to exacute
 
 You will need opengl 3.0 and glut.
 
-Good Luck!
+
 
 
 
