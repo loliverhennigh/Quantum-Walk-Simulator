@@ -89,18 +89,36 @@ w,a,s,d = move the image
 
 ## How to compile
 
+
+
+
 Here are the steps,
+
+You will need freeglut and gsl. To install these on ubunto simply type
+
+```
+sudo apt-get install freeglut3-dev
+```
+
+and
+
+```
+sudo apt-get install libgsl0-dev
+```
+
+Next compile the program
 
 ```
 make
 ```
 
 and to exacute
+
 ```
 ./walks
 ```
 
-You will need opengl 3.0 and glut.
+If glut gives you any trouble consult http://kiwwito.com/installing-opengl-glut-libraries-in-ubuntu/
 
 
 
