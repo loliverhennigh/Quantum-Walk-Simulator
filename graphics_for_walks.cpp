@@ -1,10 +1,9 @@
 //
-// File:        cude.cpp
+// File:        graphics_for_walks.cpp
 // Author:      Oliver Hennigh
 // Created:     6/1/2013
-// Project:     Diffution simulator
-// Description: Creates an OpenGL window and draws room
-//              That the user can rotate using the arrow keys
+// Project:     quantum simulator
+// Description: Creates an OpenGL window and draws the graph and nodes
 // 
 // Controls:    Left Arrow  - Rotate Left
 //              Right Arrow - Rotate Right
@@ -342,11 +341,11 @@ string double_to_string(double number)
 
 void prompt()
 {
-	cout << "Hi there, This is Eddy youre ship board computer! Just follow my directions \n";
+	cout << "Hi there, This is Eddy your ship board computer! Just follow my directions \n";
 	cout << "Enter the text file you want to read data from \n";
 	cin >> file_name;
 	cout << "Hope that works, I have no error checking :) \n";
-	cout << "if its blank then you probably didnt enter the correct file. Have a Great Day ;) \n";
+	cout << "if its blank then you probably didn't enter the correct file. Have a Great Day ;) \n";
 	q_walk sample(file_name);
 	test = sample;
 }
