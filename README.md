@@ -112,7 +112,7 @@ Next compile the program
 make
 ```
 
-and to exacute
+and to execute
 
 ```
 ./walks
